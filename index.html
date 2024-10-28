@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mascotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c6d5e7;
+            margin: 0;
+            padding: 20px;
+
+        }
+
+        div {
+            width: 500px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgb(94, 94, 94);
+        }
+
+        h1 {text-align: center;}
+
+        input {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1>Lista de Mascotas</h1>
+        <input type="text" id="petInput" placeholder="Nombre de la mascota">
+        <button id="addPetButton">Agregar Mascota</button>
+        <ul id="petList"></ul>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
